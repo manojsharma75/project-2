@@ -2,6 +2,7 @@ provider "google" {
     credentials = file("C:/TERRAFORM/key/credentials.json")
   project = "causal-folder-478404-r1"
   region  = "us-central1"
+  ##manoj
 }
 
 resource "google_container_cluster" "primary" {
